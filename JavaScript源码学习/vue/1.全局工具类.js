@@ -441,4 +441,11 @@ var LIFECYCLE_HOOKS = [
   'serverPrefetch'
 ];
 
-/*  */
+/**
+ * 总结：
+ * 1.明白了缓存的实现原理
+ * 2.Object.create(null)，超轻量对象
+ * 3.通过noop,避免flow编译后生成不必要代码
+ * 4.bind的兼容写法
+ */
+
